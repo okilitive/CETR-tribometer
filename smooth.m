@@ -1,9 +1,10 @@
+% provide a smooth function
+% if data smoothing is necessary, integrate this function into tribo.m
+% based on our internal testing, this smooth function demonstrates equivalent performance to the smooth function in CETR official software
 
 
 Result=cetr_peeksmooth(100,0.2,A_COF);
 plot(Result(1:size(Result,1),1),Result(1:size(Result,1),2),'m');
-
-
 
 function data = cetr_peeksmooth(sample_num,max_ratio,r_data) 
 
