@@ -8,8 +8,30 @@ This project aims to merge the test data from CETR UMT-2 tribometer equipped wit
   <p>CETR Tribometer (left), and Linear Wear Module (right)</p>
 </div>
 
-test
+# data
 
-test
+In this folder, some demo testing data is provided. The data was obtained in NUS lab. which grants NUS the proprietary rights to the files. Furthermore, as the data was acquired during the commissioning of the CETR tribometer, it is not to be utilized for the purpose of explaining any phenomena.
 
+
+# result
+
+This folder is the default folder to save the result data.
+
+# figure
+
+Images of CETR Tribometer and Linear Wear Module are placed here.
+
+# smooth.m
+
+A smooth function is provided. If you need to smooth the data curve, please integrate this function into tribo.m. Based on our internal testing, this smooth function demonstrates equivalent performance to the smooth function in CETR official software.
+
+# tribo.m
+
+The main programme is used to merge all linear wear data files into a unified dataset. This script has been developed using MATLAB 2022.<br>
+Prior to execution, please replace the default data and result paths as your own paths and adjust the compensation value based your sampling rate (default sampling rate: 5 Hz).
+
+# At last
+
+This is a small part from my M.Eng studies at the National University of Singapore (NUS). Although this data processing script was not included in my final thesis (instead, rotating wear module is introduced), yet it played a special role in the forging of my path. I encountered this machine in the Materials Lab (FoE, NUS), and thus began my journey. Over time, I restored the computer, lower driver, force sensor, and the carriage-the components of CETR tribometer-one by one. And lo, after nearly a decade of dormancy, the machine did once again spring to life.<br>
+This I record for my own remembrance and for those who may follow in my footsteps, though they be but imagined.
 
