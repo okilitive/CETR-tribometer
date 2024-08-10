@@ -23,6 +23,11 @@ for i=1:size(D,1)
     data = getdata(fullfile('/Users/Admin/Desktop/tribo_process/data',D(i).name),[24,24+s1-1]);
 
     if i~=1
+
+        % 0.02 is the compensation value with the sampling rate 50Hz
+        % compensation value=1/sampling rate
+        % please adjust based on your own sampling rate
+    
         data(1:s1,9) = data(1:s1,9)+A_COF(size(A_COF,1),1)+0.02; %50Hz
     end
 
@@ -33,6 +38,10 @@ for i=1:size(D,1)
 
     s2 = getsize(fullfile('/Users/Admin/Desktop/tribo_process/data',D(i).name),[24+s1+9,24+s1+9]);
     data = getdata(fullfile('/Users/Admin/Desktop/tribo_process/data',D(i).name),[24+15+s1,24+15+s1+s2-1]);    
+
+    % 0.02 is the compensation value with the sampling rate 50Hz
+    % compensation value=1/sampling rate
+    % please adjust based on your own sampling rate
     
     data(1:s2,9) = data(1:s2,9)+A_COF(size(A_COF,1),1)+0.02; %50Hz
     A_COF(s1+1+j:s1+s2+j,1) = data(1:s2,9);
