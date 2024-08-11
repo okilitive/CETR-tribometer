@@ -32,6 +32,6 @@ Prior to execution, please replace the default data and result paths as your own
 
 # At last
 
-This is a small part from my M.Eng studies at the National University of Singapore (NUS). Although this data processing script was not included in my final thesis (instead, rotating wear module is introduced), yet it played a special role in the forging of my path. I encountered this machine in the Materials Lab (FoE, NUS), and thus began my journey. Over time, I restored the computer, lower driver, force sensor, and the carriage-the components of CETR tribometer-one by one. And lo, after nearly a decade of dormancy, the machine did once again spring to life.<br>
+This is a small part from my M.Eng studies at the National University of Singapore (NUS). Although this data processing script was not included in my final thesis (instead, another rotating wear module was adopted), yet it played a special role in the forging of my path. I encountered this machine in the Materials Lab (FoE, NUS), and thus began my journey. Over time, I restored the computer, lower driver, force sensor, and the carriage-the components of CETR tribometer-one by one. And lo, after nearly a decade of dormancy, the machine did once again spring to life.<br>
 This I record for my own remembrance and for those who may follow in my footsteps, though they be but imagined.
 
