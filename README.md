@@ -10,7 +10,7 @@ This project aims to merge the test data from CETR UMT-2 tribometer equipped wit
 
 # data
 
-In this folder, some demo testing data is provided. The data was obtained in NUS lab. which grants NUS the proprietary rights to the files. Furthermore, as the data was acquired during the commissioning of the CETR tribometer, it is not to be utilized for the purpose of explaining any phenomena.
+In this folder, some demo testing data is provided. The data was obtained in NUS lab, which grants NUS the proprietary rights to the files. Furthermore, as the data was acquired during the commissioning of the CETR tribometer, it is not to be utilized for the purpose of explaining any phenomena.
 
 
 # result
@@ -28,7 +28,7 @@ A smooth function is provided. If you need to smooth the data curve, please inte
 # tribo.m
 
 The main programme is used to merge all linear wear data files into a unified dataset. This script has been developed using MATLAB 2022.<br>
-Prior to execution, please replace the default data and result paths as your own paths and adjust the compensation value based your sampling rate (default sampling rate: 5 Hz).
+Prior to execution, please replace the default data and result paths as your own paths and adjust the compensation value based your sampling rate (default sampling rate: 50 Hz).
 
 # At last
 
